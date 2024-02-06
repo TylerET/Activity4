@@ -1,0 +1,86 @@
+:root {
+  --red: #643843;
+  --purple: #85586f;
+  --pink: #ac7d88;
+  --cream: #fdf0d1;
+}
+
+body {
+  margin: 0;
+}
+
+.content {
+  max-width: 80vw;
+  margin: auto;
+  background-color: var(--purple);
+}
+
+html {
+  font-family: "Courier New", Courier, monospace;
+  color: var(--cream);
+  background-color: var(--pink);
+}
+
+main {
+  background-color: var(--purple);
+  margin-bottom: 1.5rem;
+}
+
+address {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem;
+}
+
+h1,
+h2,
+footer {
+  text-align: center;
+}
+
+.grid-item {
+  padding: 0 1rem;
+  background-color: var(--purple);
+}
+
+.container {
+  background-color: var(--red);
+  width: 100%;
+  padding: 1rem;
+}
+
+.grid-container,
+ul {
+  display: flex;
+}
+
+li:before {
+  content: "♥";
+  margin: 0 1em;
+}
+
+li {
+  list-style-type: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.vertical {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mt {
+  margin: auto auto 0 auto;
+}
+
+a:visited {
+  color: var(--red);
+}
+
+a {
+  color: var(--cream);
+}
